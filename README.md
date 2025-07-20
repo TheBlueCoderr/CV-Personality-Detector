@@ -35,4 +35,35 @@ For demonstration, a small simulated dataset is used. You can replace it with a 
 ```csv
 resume_text, trait
 "Handled team leadership...", Openness
-"Worked under pressure...", Neuroticism
+"Worked under pressure...", Neuroticism 
+```
+## ⚙️ How to Run
+Clone the repository
+git clone https://github.com/yourusername/cv-personality-detector.git
+cd cv-personality-detector
+
+Install required libraries
+pip install -r requirements.txt
+
+Run the project
+python main.py
+
+
+## 📊 Example Output
+python-repl
+Copy
+Edit
+Classification Report:
+
+              precision    recall  f1-score   support
+
+Openness         1.00      1.00      1.00       1
+...
+
+
+## 🛠️ Future Improvements
+Use Word2Vec or BERT embeddings
+
+Train on a larger real-world dataset
+
+Deploy with a Streamlit or Flask front-end
